@@ -25,4 +25,4 @@
 I managed to avoid the popup issue entirely by using a different endpoint 
  -> https://www.newegg.com/home
 
-But i left the snippet that should work to avoid the issue in a comment in `steps.js` as well.
+But i will add a snippet that should work to avoid the issue in a comment in `steps.js` as well.
