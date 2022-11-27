@@ -1,6 +1,8 @@
 # E2E-Hometask-ABerling
 
-## Setup
+## SETUP
+
+
 1. Clone this repository to your workstation.  
 
 2. Enter the root directory
@@ -10,8 +12,17 @@
 
 ## TESTS
 
-`yarn allTests` - will run all test suites
 
-`yarn searchBar` - will run the tests relating to the search bar functionality
+`yarn test` -  run all tests
 
-`yarn todaysDeals` - will run the tests relating to the daily deals functionality
+`yarn search` - search bar functionality
+
+`yarn deals` - daily deals functionality
+
+
+## POPUP
+
+I managed to avoid the popup issue entirely by using a different endpoint 
+ -> https://www.newegg.com/home
+
+But i left the snippet that should work to avoid the issue in a comment in `steps.js` as well.
