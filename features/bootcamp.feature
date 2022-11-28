@@ -19,8 +19,10 @@ Given User is on the home page
     When User clicks on the deals button
     Then User should be redirected to deals webpage
     * User should see todays deals
-
-  Scenario: User can go back to the homepage by clicking the logo button.
-  
     When User clicks the logo button
     Then User is redirected to the landing page
+
+  # Scenario: User can go back to the homepage by clicking the logo button.
+  
+  #   When User clicks the logo button
+  #   Then User is redirected to the landing page

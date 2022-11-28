@@ -10,7 +10,9 @@ When('User enters {string} into the search bar and clicks the search button', as
 });
 
 Then('User should be redirected to a webpage cotaining at least one {string}', async (result) => {
-    await expect($('.item-info')).toBeExisting();
-    await expect($('.list-wrap')).toHaveTextContaining(result);
+    const itemInformation = await $('.item-info');
+    const itemList = await $('.list-wrap');
+    await expect(itemInformation).toBeExisting();
+    await expect(itemList).toHaveTextContaining(result);
 });
 
