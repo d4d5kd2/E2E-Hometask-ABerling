@@ -15,10 +15,6 @@
 
 `yarn test` -  run all tests
 
-`yarn search` - search bar functionality
-
-`yarn deals` - daily deals functionality
-
 
 ## POPUP
 

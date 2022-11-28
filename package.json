@@ -19,8 +19,5 @@
   },
   "scripts": {
     "test": "wdio run wdio.conf.js",
-    "deals": "wdio run wdio.conf.js --spec todaysDeals",
-    "search": "wdio run wdio.conf.js --spec searchBar",
-    "logo": "wdio run wdio.conf.js --spec logoButton"
   }
 }
