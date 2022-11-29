@@ -20,5 +20,3 @@
 
 I managed to avoid the popup issue entirely by using a different endpoint 
  -> https://www.newegg.com/home
-
-I also added a snippet that should work to avoid the popup using browser.refresh() in a comment in `steps.js`
