@@ -6,5 +6,5 @@ When('User clicks the logo button', async ()=>{
 });
 
 Then('User is redirected to the landing page', async ()=> {
-    await expect(browser).toHaveUrl('https://www.newegg.com/')
+    await expect(browser).toHaveUrl(browser.options.baseUrl)
 });
