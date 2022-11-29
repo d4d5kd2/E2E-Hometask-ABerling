@@ -5,7 +5,7 @@ When('User enters {string} into the search bar and clicks the search button', as
     const searchTerm = await product;
     const searchButton = await $('.header2021-search-button');
     await searchField.click();
-    await browser.keys(searchTerm);
+    await searchField.setValue(searchTerm);
     await searchButton.click();
 });
 
