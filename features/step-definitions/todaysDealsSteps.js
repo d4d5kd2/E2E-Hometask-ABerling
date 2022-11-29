@@ -13,7 +13,7 @@ Then('User should see header "TODAYS BEST DEALS"', async () => {
     const dealsTitle = await $('.limit-string')
     await expect(dealsTitle).toBeExisting();
     await expect(dealsTitle).toHaveTextContaining("TODAY'S BEST DEALS");
-})
+});
 
 Then('User should see todays deals content', async () => {
     const dealItem = await $('.item-cell');
