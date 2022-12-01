@@ -2,10 +2,9 @@ const { Given, When, Then } = require('@wdio/cucumber-framework');
 
 When('User enters {string} into the search bar and clicks the search button', async (product) => {
     const searchField = await $('input[type=search]');
-    const searchTerm = product;
     const searchButton = await $('.header2021-search-button');
     await searchField.click();
-    await searchField.setValue(searchTerm);
+    await searchField.setValue(product);
     await searchButton.click();
 });
 
