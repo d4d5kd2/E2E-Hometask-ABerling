@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './features/**/*.feature'
+        Array(5).fill('./features/**/bootcamp.feature')
     ],
     // Patterns to exclude.
     exclude: [
@@ -57,6 +57,9 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
+        'goog:chromeOptions': {
+            args: ['--headless']
+        },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -139,7 +142,9 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/*.js'],
+        require: [
+            './features/step-definitions/*.js',
+        ],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)

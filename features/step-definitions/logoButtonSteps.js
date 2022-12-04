@@ -1,7 +1,8 @@
 const { When, Then } = require("@wdio/cucumber-framework");
+const  { LOGO_BUTTON_SELECTOR } = require("../../support/variables")
 
 When('User clicks the logo button', async ()=>{
-    const logoButton = await $('.header2021-logo');
+    const logoButton = await $(LOGO_BUTTON_SELECTOR);
     await logoButton.click();
 });
 

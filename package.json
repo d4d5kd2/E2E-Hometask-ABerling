@@ -1,5 +1,5 @@
 {
-  "name": "E2E-Hometask",
+  "name": "E2EHometask",
   "version": "1.0.0",
   "description": "newegg.com e2e js-test",
   "main": "index.js",
@@ -18,6 +18,8 @@
     "wdio-wait-for": "^3.0.0"
   },
   "scripts": {
-    "test": "wdio run wdio.conf.js"
+    "test": "wdio run wdio.conf.js",
+    "test5": "wdio run wdio.conf.js --runInBand --repeat 5 | tee test-log.txt",
+    "cart": "wdio run wdio.conf.js --spec shoppingCart"
   }
 }
