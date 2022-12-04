@@ -26,7 +26,9 @@ For the additional shopping cart scenario I chose:
 1. adding a searched item to cart
 2. viewing the cart contents 
 3. removing an item from cart
- as from what i gathered those are the most functionally important elements of the feature available to a user that is not logged in.
+
+
+as from what i gathered those are the most functionally important elements of the feature available to a user that is not logged in.
 
 ## TEST RUNS
 
@@ -45,7 +47,7 @@ For the additional shopping cart scenario I chose:
     [chrome 107.0.5304.68 linux #0-0]    ✓ When User clicks on the searched product image
     [chrome 107.0.5304.68 linux #0-0]    ✓ Then User should be redirected to the product page
     [chrome 107.0.5304.68 linux #0-0]    ✓ * User should see the add to cart button
-    [chrome 107.0.5304.68 linux #0-0]    ✓ When User clicks on the add to cart buttongit s
+    [chrome 107.0.5304.68 linux #0-0]    ✓ When User clicks on the add to cart button
     [chrome 107.0.5304.68 linux #0-0]    ✓ Then User should see a message "ITEM HAS BEEN ADDED TO CART."
     [chrome 107.0.5304.68 linux #0-0]
     [chrome 107.0.5304.68 linux #0-0] User can check contents of their shopping cart
